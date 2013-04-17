@@ -1,0 +1,7 @@
+call pathogen#infect()
+
+set sw=4 ts=4 expandtab
+
+let g:detectindent_preferred_expandtab = 1 
+
+autocmd BufReadPost * :DetectIndent
